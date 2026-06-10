@@ -6,10 +6,11 @@
 
 extern void crtp();
 extern void joiningThreadTest();
+extern void readWriterProblem();
 int main()
 {
     //crtp();
-    joiningThreadTest();
-
+    //joiningThreadTest();
+    readWriterProblem();
     return 0;
 }
